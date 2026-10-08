@@ -12,7 +12,7 @@ from google.genai import types
 from pypdf import PdfReader
 
 # Change the default here, or set GEMINI_MODEL in Streamlit secrets / env vars.
-DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_RESUME_CHARS = 20000
 MAX_JD_CHARS = 8000
 
